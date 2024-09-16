@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header className={"md:px-20 md:py-10"}>
       <nav className="hidden md:flex flex-row justify-between items-center h-14">
-        <h1 className={cn(syne.className, "flex items-center text-4xl h-full")}>Atmajo</h1>
+        <h1 className={cn(syne.className, "flex items-center text-4xl h-full")}>Atmajo.</h1>
         <div className="flex justify-center items-center gap-10 px-5 h-14 navbox_bg">
           {navdata.map(({ title, url }, _id) => (
             <Link key={_id} href={url} className={cn(poppin.className, "")}>

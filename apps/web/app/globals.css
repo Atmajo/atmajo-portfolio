@@ -116,6 +116,11 @@
   top: 102%;
 }
 
+.award-box {  
+  background: linear-gradient(103.4deg, #04071d 16.66%, #0c0e23 81.61%);
+  border: 1px solid #1a1d2c;
+  border-radius: 20px;
+}
 
 ::-webkit-scrollbar {
   display: none;

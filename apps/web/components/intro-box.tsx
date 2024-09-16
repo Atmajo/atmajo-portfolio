@@ -15,7 +15,7 @@ const IntroBox = ({ className }: Introboxprops) => {
       </h1>
 
       <div className="relative my-10">
-        <h1 className={cn(syne.className, "font-extrabold text-6xl")}>
+        <h1 className={cn(syne.className, "font-bold text-6xl")}>
           Web Developer
         </h1>
         <img src="/strike.svg" alt="stike" className="strike" />
@@ -23,7 +23,7 @@ const IntroBox = ({ className }: Introboxprops) => {
 
       <p className={cn(raleway.className, "text-lg font-light mt-16")}>
         Full stack developer with a passion for crafting seamless, responsive,
-        and user-friendly web applications.
+        <br />and user-friendly web applications.
       </p>
 
       <div className="flex mt-24 h-14 gap-10">

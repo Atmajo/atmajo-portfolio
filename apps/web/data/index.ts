@@ -1,5 +1,3 @@
-import { Linkedin, LinkedinIcon } from "lucide-react";
-
 export const navdata = [
   {
     title: "Home",
@@ -43,5 +41,24 @@ export const socials = [
     logo: "/insta.svg",
     title: "Instagram",
     url: "https://www.instagram.com/a.t.m.a.j.o/",
+  },
+];
+
+export const awarddata = [
+  {
+    title: "Years of Experience",
+    value: "2+",
+  },
+  {
+    title: "Projects Completed",
+    value: "10+",
+  },
+  {
+    title: "Happy Clients",
+    value: "5+",
+  },
+  {
+    title: "Awards",
+    value: "0",
   },
 ];
