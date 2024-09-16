@@ -1,0 +1,3 @@
+interface Introboxprops {
+    className?: string;
+}
