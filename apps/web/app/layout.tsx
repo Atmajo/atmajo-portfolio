@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import Navbar from "@/components/navbar";
-
+import MaxWidthWrapper from "@/wrapper/max-width-wrapper";
 
 export const metadata: Metadata = {
   title: "Atmajo's Portfolio",
@@ -16,11 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased`}
-      >
-        <Navbar />
-        {children}
+      <body className={`antialiased`}>
+        <MaxWidthWrapper>
+          <Navbar />
+          {children}
+        </MaxWidthWrapper>
       </body>
     </html>
   );

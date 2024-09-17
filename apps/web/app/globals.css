@@ -78,8 +78,6 @@
 
 .eclipse-one {
   position: absolute;
-  width: 500px;
-  height: 500px;
   left: calc(50% - 500px / 2);
   top: 200px;
 

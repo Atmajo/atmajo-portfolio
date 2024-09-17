@@ -10,18 +10,18 @@ const raleway = Raleway({ weight: "400", subsets: ["latin"] });
 const IntroBox = ({ className }: Introboxprops) => {
   return (
     <div className={cn(className, "")}>
-      <h1 className={cn(poppin.className, "text-3xl")}>
+      <h1 className={cn(poppin.className, "text-2xl lg:text-3xl")}>
         Hi I&apos;m Atmajo Chowdhury!
       </h1>
-
+      
       <div className="relative my-10">
-        <h1 className={cn(syne.className, "font-bold text-6xl")}>
+        <h1 className={cn(syne.className, "font-bold text-5xl lg:text-6xl")}>
           Web Developer
         </h1>
-        <img src="/strike.svg" alt="stike" className="strike" />
+        <img src="/strike.svg" alt="stike" className="strike w-60 md:w-80 lg:w-" />
       </div>
 
-      <p className={cn(raleway.className, "text-lg font-light mt-16")}>
+      <p className={cn(raleway.className, "text-sm lg:text-lg font-light mt-16")}>
         Full stack developer with a passion for crafting seamless, responsive,
         <br />and user-friendly web applications.
       </p>

@@ -5,19 +5,19 @@ export const navdata = [
   },
   {
     title: "About",
-    url: "/about",
+    url: "/#about",
   },
   {
     title: "Projects",
-    url: "/projects",
+    url: "/#projects",
   },
   {
     title: "Testimonials",
-    url: "/testimonials",
+    url: "/#testimonials",
   },
   {
     title: "Contact",
-    url: "/contact",
+    url: "/#contact",
   },
 ];
 
