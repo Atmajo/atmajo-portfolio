@@ -9,7 +9,7 @@ const raleway = Raleway({ weight: "400", subsets: ["latin"] });
 
 const IntroBox = ({ className }: Introboxprops) => {
   return (
-    <div className={cn(className, "")}>
+    <div className={cn(className, "flex flex-col justify-center md:justify-normal ")}>
       <h1 className={cn(poppin.className, "text-2xl lg:text-3xl")}>
         Hi I&apos;m Atmajo Chowdhury!
       </h1>
@@ -21,12 +21,12 @@ const IntroBox = ({ className }: Introboxprops) => {
         <img src="/strike.svg" alt="stike" className="strike w-60 md:w-80 lg:w-" />
       </div>
 
-      <p className={cn(raleway.className, "text-sm lg:text-lg font-light mt-16")}>
+      <p className={cn(raleway.className, "text-sm lg:text-lg font-light mt-10 md:mt-16 w-[90%]")}>
         Full stack developer with a passion for crafting seamless, responsive,
-        <br />and user-friendly web applications.
+        and user-friendly web applications.
       </p>
-
-      <div className="flex mt-24 h-14 gap-10">
+      
+      <div className="flex items-center justify-center md:justify-normal mt-24 h-14 gap-10">
         <Button
           className={cn(
             syne.className,
