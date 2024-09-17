@@ -7,7 +7,7 @@ import { navdata } from "@/data";
 
 import { Syne, Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
-import { Sheet, SheetClose, SheetContent, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Menu } from "lucide-react";
 
 const syne = Syne({ subsets: ["greek"] });
